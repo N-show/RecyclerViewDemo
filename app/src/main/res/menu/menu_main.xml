@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.nsh.myapplication.MainActivity.MainActivity">
+
+    <item
+        android:id="@+id/actionbar_delete_icon"
+        android:icon="@drawable/actionbar_delete_icon"
+        android:orderInCategory="100"
+        android:title="delete"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/actionbar_add_icon"
+        android:icon="@drawable/actionbar_add_icon"
+        android:orderInCategory="100"
+        android:title="add"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/id_action_gridview"
+        android:orderInCategory="100"
+        android:title="GridView"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/id_action_listview"
+        android:orderInCategory="100"
+        android:title="ListView"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/id_action_horizontalgridview"
+        android:orderInCategory="100"
+        android:title="HorizontalGridView"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/id_action_staggeredgraidview"
+        android:orderInCategory="100"
+        android:title="StaggeredGraidView"
+        app:showAsAction="never"/>
+
+</menu>
